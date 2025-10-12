@@ -6,6 +6,8 @@ This repository contains the solutions to practical exercises that I performed d
 ## Repository Strucutre and Content 
 Exercises and solutions related to different course modules are strucutred in their relevant folders and can be accessed via these links:
 - [Linux](./linux/README.md)
+- [Kubernetes](./kubernetes/README.md)
+- [STACKIT Kubernetes Engine (SKE)](./ske/README.md)
 
 ## Contribution Guidelines
 I will keep adding different exercises and their solutions from different course modules. If the notes, exercises and solutions in this repo were helpful in your understanding of the STACKIT Cloud or cloud computing in general, please consider leaving a star.
