@@ -136,6 +136,13 @@ http://127.0.0.1:63536
 
 ![Scrumlr HomePage](./img/scrumlr.png)
 
+*Clean Up*
+
+```bash
+$ minikube stop
+$ minikube delete
+```
+
 ## SKE infrastructure provisioning using Terraform
 
 **Task**
