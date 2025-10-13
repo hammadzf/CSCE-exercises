@@ -6,6 +6,8 @@ This repository contains the solutions to practical exercises that I performed d
 ## Repository Strucutre and Content 
 Exercises and solutions related to different course modules are strucutred in their relevant folders and can be accessed via these links:
 - [Linux](./linux/README.md)
+- [Docker](./docker/README.md)
+- [DevOps](./devops/README.md)
 - [Kubernetes](./kubernetes/README.md)
 - [STACKIT Kubernetes Engine (SKE)](./ske/README.md)
 
