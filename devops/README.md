@@ -44,11 +44,11 @@ $ curl http://locahost:8080/metrics
 ```
 4. Open Grafana dashboard at `http://localhost:3000` and configure Prometheus as data source (URL: `http://host.docker.internal:9090`).
 
-5. Create or import Grafana dashboards for basic system and application/container monitoring. Dashboard available in [node-exporter-full.json](./monitoring/node-exporter-full.json) can be imported for monitoring system metrics exposed by the node exporter. If the monitoring stack is running and the Grafana dashboard is configured correctly, the dashboard should look something like this.
+5. Create or import Grafana dashboards for basic system and application/container monitoring. Dashboard available in [node-exporter-full.json](./monitoring/node-exporter-full.json) can be imported for monitoring system metrics exposed by the node exporter. If the monitoring stack is running and the Grafana dashboard is configured correctly, the dashboard should look something like this:
 
 ![System Metrics](./monitoring/img/system.png)
 
-6. Since our demo application is running as a docker container, its resource usage metrics can be observed by the metrics being exposed by cadvisor component of the monitoring stack. Dashboard available in [docker-monitoring.json](./monitoring/docker-monitoring.json)
+6. Since our demo application is running as a docker container, its resource usage metrics can be observed by the metrics being exposed by cadvisor component of the monitoring stack. Dashboard available in [docker-monitoring.json](./monitoring/docker-monitoring.json) can be imported for monitoring container metrics exposed by the cadvisor. If the monitoring stack is running and the Grafana dashboard is configured correctly, the dashboard should look something like this:
 
 ![Container Metrics](./monitoring/img/container.png)
 
